@@ -1,0 +1,8 @@
+#!/bin/bash
+
+GO111MODULE="${GO111MODULE:-on}"
+
+PATH=$PATH:/usr/local/go/bin
+
+export GO111MODULE
+export PATH
