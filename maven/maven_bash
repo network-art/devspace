@@ -1,5 +1,7 @@
 #!/bin/bash
 
-PATH=$PATH:$HOME/installs/apache-maven-3.2.1/bin
+MAVEN_DIR="${MAVEN_DIR:-$HOME/installs/apache-maven-3.2.1}"
+
+PATH=$PATH:${MAVEN_DIR}/bin
 
 export PATH
