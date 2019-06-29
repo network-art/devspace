@@ -1,6 +1,9 @@
 #!/bin/bash
 
-PATH=$PATH:/usr/local/automake/bin
-PATH=$PATH:$HOME/installs/libtool/bin
+GNU_AUTOTOOLS_DIR="${GNU_AUTOTOOLS_DIR:-/usr/local}"
+
+PATH=$PATH:${GNU_AUTOTOOLS_DIR}/autoconf/bin
+PATH=$PATH:${GNU_AUTOTOOLS_DIR}/automake/bin
+PATH=$PATH:${GNU_AUTOTOOLS_DIR}/libtool/bin
 
 export PATH
