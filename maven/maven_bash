@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PATH=$PATH:$HOME/installs/apache-maven-3.2.1/bin
+
+export PATH

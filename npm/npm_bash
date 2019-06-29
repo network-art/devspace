@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NPM_CONFIG_PREFIX="${NPM_CONFIG_PREFIX:-$HOME/.node_modules_global}
+NPM_CONFIG_PREFIX="${NPM_CONFIG_PREFIX:-$HOME/.node_modules_global}"
 PATH=$PATH:$NPM_CONFIG_PREFIX/bin
 
 export NPM_CONFIG_PREFIX

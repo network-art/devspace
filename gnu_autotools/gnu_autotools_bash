@@ -1,0 +1,6 @@
+#!/bin/bash
+
+PATH=$PATH:/usr/local/automake/bin
+PATH=$PATH:$HOME/installs/libtool/bin
+
+export PATH
