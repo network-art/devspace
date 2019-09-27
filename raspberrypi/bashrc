@@ -1,0 +1,6 @@
+#!/bin/bash
+
+PATH=$PATH:$HOME/workspace/raspberrypi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
+
+export PATH
+
