@@ -105,3 +105,5 @@
 ;;  '(default ((t (:family "Source Code Pro" :foundry "nil" :slant normal :weight light :height 120 :width normal)))))
 
 (put 'upcase-region 'disabled nil)
+
+(tool-bar-mode -1)
