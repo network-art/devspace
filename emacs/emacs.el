@@ -6,6 +6,9 @@
 
 (add-to-list 'load-path "~/workspace/devspace/emacs/packages")
 
+;; disable electric-indent-mode
+(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
+
 ;;; uncomment this line to disable loading of "default.el" at startup
 ;; (setq inhibit-default-init t)
 
@@ -51,7 +54,7 @@
    "Major mode for editing GitHub Flavored Markdown files" t)
 (add-to-list 'auto-mode-alist '("README\\.md\\'" . gfm-mode))
 
-(setq-default indent-tabs-mode t)
+(setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
 
 (setq c-basic-indent 2)
