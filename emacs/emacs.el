@@ -32,6 +32,10 @@
 (autoload 'go-mode "go-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.go\\'" . go-mode))
 
+;; Treat bazel files in python mode
+(add-to-list 'auto-mode-alist '("\\.bazel\\'" . python-mode))
+(add-to-list 'auto-mode-alist '("\\.bzl\\'" . python-mode))
+
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
 
